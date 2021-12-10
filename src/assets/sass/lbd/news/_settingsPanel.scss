@@ -1,0 +1,102 @@
+/*
+.settings-panel {
+  width: 290px;
+  -webkit-box-shadow: -2px 0 5px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: -2px 0 5px 0 rgba(0, 0, 0, 0.06);
+  //background: #fff;
+  position: fixed;
+  right: -290px;
+  min-height: 55%;
+  z-index: 9999;
+  bottom: 0px; 
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background: #EAEDED;
+  border: 2px solid #D0F2E1; 
+  -webkit-transition: right 0.2s;
+  -o-transition: right 0.2s;
+  transition: right 0.2s; }
+*/
+
+.settings-panel {
+  width: 365px;
+  border-left: 1px solid #4BB2B6;
+  -webkit-box-shadow: -2px 0 5px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: -2px 0 5px 0 rgba(0, 0, 0, 0.06);
+  background: #fff;
+  position: fixed;
+  top: 0;
+  right: -365px;
+  height: 100%;
+  z-index: 9999;
+  -webkit-transition: right 0.2s;
+  -o-transition: right 0.2s;
+  transition: right 0.2s; }
+  .settings-panel.is-opened {
+    right: 0; }
+
+  .settings-panel__header {
+    background-color: #4BB2B6;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 15px 20px 2px;
+    //border-bottom: 1px solid rgba(147, 157, 170, 0.15);
+    border-bottom: 1px solid #E5E8E8 }
+
+  .settings-panel__close {
+    color: #000;
+    font-size: 10px;
+    position: absolute;
+    top: 13px;
+    right: 13px; }
+  .settings-panel__heading {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 3px; }
+  .settings-panel__desc {
+    font-size: 14px;
+    //color: #939daa;
+    color: gray }
+  .settings-panel__layout-options {
+    padding: 20px;
+    border-bottom: 1px solid rgba(147, 157, 170, 0.15); }
+  .settings-panel__theme-colors {
+    padding: 20px; }
+  .settings-panel__block-heading {
+    font-size: 17px;
+    margin-bottom: 15px; }
+  .settings-panel__layout-option {
+    margin-bottom: 15px; }
+    .settings-panel__layout-option:last-child {
+      margin-bottom: 0; }
+.settings-panel-control {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  width: 50px;
+  height: 50px;
+  background: #0094f2;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-shadow: 0 0.2rem 0.5rem 0 rgba(147, 157, 170, 0.03);
+  box-shadow: 0 0.2rem 0.5rem 0 rgba(147, 157, 170, 0.03);
+  -webkit-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  transition: background 0.2s; }
+  .settings-panel-control:hover {
+    background: #0084d9; }
+  .settings-panel-control .iconfont {
+    position: relative;
+    top: 1px; }

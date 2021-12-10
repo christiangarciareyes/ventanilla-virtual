@@ -1,0 +1,153 @@
+.registrar-header {
+  background-position: center center;
+  background-size: cover;
+  max-height: 600px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.registrar-header:after {
+  background: rgba(3, 3, 3, 0.5);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.registrar-header.page-header-small {
+  min-height: 65vh !important;
+  max-height: 900px;
+}
+.registrar-header.page-header-xs {
+  min-height: 40vh !important;
+}
+.registrar-header.section-dark .content-center,
+.registrar-header.section-dark .category-absolute {
+  z-index: 1;
+}
+.registrar-header .motto {
+  text-align: left;
+  z-index: 3;
+  color: #fff;
+  position: relative;
+}
+
+.registrar-hero {
+    margin: 0;
+    padding: 60px 0 0 0;
+    background-image: url('/static/img/cover.jpg');
+    opacity:.80;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    background-position: center center;
+    background-size: cover; 
+  }
+
+  .registrar-hero.landing-hero-small {
+    min-height: 65vh !important;
+    max-height: 900px;
+  }
+  .registrar-hero.landing-hero-xs {
+    min-height: 40vh !important;
+  }
+  .registrar-hero.section-dark .content-center,
+  .registrar-hero.section-dark .category-absolute {
+    z-index: 1;
+  }
+  .registrar-hero .motto {
+    text-align: left;
+    z-index: 3;
+    color: #fff;
+    position: relative;
+  }
+
+  .registrar-hero .filt::after {
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .registrar-hero h1,
+  .registrar-hero h2 { color: #fff !important; }
+  
+  .registrar-hero h1 {
+    margin: 100px 0 20px 0;
+    font-size: 30px;
+  }
+  
+  .registrar-hero h2 {
+    margin: 0 0 50px 0;
+    font-size: 16px;
+  }
+  
+  .registrar-hero .btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .registrar-hero .btn:not(.btn-outline),
+  .registrar-hero .btn:hover,
+  .registrar-hero .btn:focus,
+  .registrar-hero .btn:active { border-color: transparent !important; }
+  
+  .registrar-hero .sample {
+    position: relative;
+  
+    overflow: hidden;
+  
+    max-width: 1024px;
+    max-height: 370px;
+    margin: 90px auto 0 auto;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+  
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .3), 0 0 6px rgba(0, 0, 0, .05);
+  }
+  
+  .registrar-hero .sample img { width: 100%; }
+  
+  .registrar-hero .sample-img {
+    position: relative;
+    z-index: 2;
+    margin-top: 2.34375%; /* 24px; */
+  }
+  
+  .registrar-hero .sample-win {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  
+  @media (min-width: 544px) {
+    .registrar-hero h1 {
+      margin-top: 80px;
+      font-size: 36px;
+    }
+  
+    .registrar-hero h2 { font-size: 18px; }
+    .registrar-hero .sample { margin-top: 130px; }
+  }
+  
+  @media (min-width: 768px) {
+    .registrar-header h1 { font-size: 50px; }
+    .registrar-header h2 { font-size: 20px; }
+  }

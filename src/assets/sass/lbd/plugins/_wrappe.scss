@@ -1,0 +1,56 @@
+  .wrappe.spotlight .inner {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .wrappe.spotlight .image {
+    border-radius: 100%;
+    width: 22em;
+    overflow: hidden;
+    -ms-flex: 1;
+  }
+    .wrappe.spotlight .image img {
+      border-radius: 100%;
+      width: 100%;
+    }
+  .wrappe.spotlight .content {
+    width: 100%;
+    -ms-flex: 2;
+  }
+  .wrappe.spotlight:nth-child(2n - 1) .inner {
+    -moz-flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  .wrappe.spotlight:nth-child(2n - 1) .image {
+    margin: 2em 0 0 3em;
+  }
+
+@media screen and (max-width: 980px) {
+    .wrappe.spotlight .image {
+      margin: 0 2em 0 0;
+      width: 32em;
+    }
+}
+@media screen and (max-width: 480px) {
+  .wrappe.spotlight .inner {
+    margin-top: 20px;
+    display: block;
+  }
+  .wrappe.spotlight .image {
+    margin: 0 0 1em 0 !important;
+    max-width: 85%;
+    width: 12em;
+  }
+}

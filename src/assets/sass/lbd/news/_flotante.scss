@@ -1,0 +1,33 @@
+.settings-panel-control {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  width: 50px;
+  height: 50px;
+  background: #4BB2B6;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-shadow: 0 0.2rem 0.5rem 0 rgba(147, 157, 170, 0.03);
+  box-shadow: 0 0.2rem 0.5rem 0 rgba(147, 157, 170, 0.03);
+  -webkit-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  transition: background 0.2s; }
+  .settings-panel-control:hover {
+    background: #4BB2B6; }
+  .settings-panel-control .iconfont {
+    position: relative;
+    top: 1px; }
+@media only screen and (max-width: 767px) {
+  .settings-panel-control {
+    display: none; } }

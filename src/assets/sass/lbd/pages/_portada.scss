@@ -1,0 +1,172 @@
+.title-uppercase {
+  text-transform: uppercase;
+}
+.wrapper .navbar-collapse {
+    display: none;
+}
+.page-header {
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 1500px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-header:after {
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(3, 3, 3, 0.5);
+}
+.page-header.page-header-small {
+  min-height: 65vh !important;
+  max-height: 900px;
+}
+.page-header.page-header-xs {
+  min-height: 40vh !important;
+}
+.page-header.section-dark .content-center,
+.page-header.section-dark .category-absolute {
+  z-index: 1;
+}
+.page-header .motto {
+  text-align: left;
+  z-index: 3;
+  color: #fff;
+  position: relative;
+}
+.title-brand {
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+}
+.title-brand .type {
+  position: absolute;
+  font-size: 20px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  top: 0;
+  font-weight: 600;
+  margin-top: 5px;
+  right: -15px;
+}
+.category-absolute {
+  position: absolute;
+  text-align: center;
+  top: 100vh;
+  margin-top: -100px;
+  padding: 0 15px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-portada {
+  margin-top: 100px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.colorLogo{
+  color: rgba(255, 255, 255, 0.6);
+}
+.fog-low {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: -35%;
+  margin-bottom: -50px;
+  width: 110%;
+  opacity: .85;
+}
+.fog-low img {
+  width: 100%;
+}
+.fog-low.right {
+  margin-left: 30%;
+  opacity: 1;
+}
+.page-header .content-center {
+  margin-top: 5px;
+}
+.titulo{
+  font-size: 60px;
+  font-weight: 700;
+  font-border: 2px solid #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgba(255,255,255,0.9);
+  //text-shadow: -2px -2px 1px #333;
+}
+@media screen and (max-width: 736px) {
+  .titulo{
+    font-size: 40px;
+    font-weight: 700;
+    font-border: 2px solid #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(255,255,255,0.9);
+    //text-shadow: -2px -2px 1px #333;
+  }
+}
+.cabeza{
+  font-size: 30px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.9);
+}
+.brand {
+  color: #2E86C1;
+  font-weight: 700;
+}
+.brando {
+  color: #2E86C1;
+  font-weight: 700;
+}
+.text-port {
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.9);
+  //text-shadow: -2px -2px 1px #333;
+}
+.text-porta {
+  font-family: 'Raleway';
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.9);
+  //text-shadow: -2px -2px 1px #333;
+}
+.intro-text {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.fuente{
+  font-family:'Raleway';
+  letter-spacing: 1px;
+}
+.fuente2{
+  font-family:'Lato';
+}
+.div_porta{
+  border-left: solid 1px #fff;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .div_porta {
+    display: none; } }
+.index{
+  z-index: 2;
+}    

@@ -1,0 +1,51 @@
+.settings-panel-menu {
+  width: 230px;
+  letter-spacing: 0.15em;
+  -webkit-box-shadow: -2px 0 5px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: -2px 0 5px 0 rgba(0, 0, 0, 0.06);
+  background: #1d242a;
+  position: fixed;
+  top: 0;
+  right: -340px;
+  height: 100%;
+  z-index: 9999;
+  -webkit-transition: right 0.2s;
+  -o-transition: right 0.2s;
+  transition: right 0.2s; }
+  .settings-panel-menu.is-opened {
+    right: 0; }
+  .settings-panel-menu__header {
+    position: relative;
+    padding: 5px 20px 0px;
+    //border-bottom: 1px solid rgba(147, 157, 170, 0.15);
+    border-bottom: 1px solid #E5E8E8 }
+  .settings-panel-menu__close {
+    color: #000;
+    font-size: 10px;
+    position: absolute;
+    top: 13px;
+    right: 13px; }
+  .settings-panel-menu__heading {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 3px; }
+  .settings-panel-menu__desc {
+    font-size: 14px;
+    //color: #939daa;
+    color: gray }
+  .settings-panel-menu__layout-options {
+    padding: 20px;
+    border-bottom: 1px solid rgba(147, 157, 170, 0.15); }
+  .settings-panel-menu__theme-colors {
+    padding: 20px; }
+  .settings-panel-menu__block-heading {
+    font-size: 17px;
+    margin-bottom: 15px; }
+  .settings-panel-menu__layout-option {
+    margin-bottom: 15px; }
+    .settings-panel-menu__layout-option:last-child {
+      margin-bottom: 0; }
+  @media only screen and (min-width: 995px) {
+  .settings-panel-menu {
+    display: none; } }
